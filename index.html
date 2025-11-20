@@ -3,24 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Kerman Huici">
-    <meta name="description" content="ZinemaUsurbil ">
+    <meta name="description" content="Etorri gure zinemara!">
 
     <title>ZinemaUsurbil</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>ZinemaUsurbil</h1>
+        <div class="logo">
+            <img src="" alt="Logoa">
+
+            <a href="#">
+                <h1>ZinemaUsurbil</h1>
+            </a>
+        </div>
+
         <nav>
             <ul>
-                <li></li>
+                <li><a href="#">Kartelera</a></li>
+                <li><a href="#">Saskia</a></li>
+                <li><a href="#">Kontaktua</a></li>
             </ul>
         </nav>
+
+        <div class="burger"></div>
     </header>
+
     <main>
+        <section id="countdown">
+            <h1 class="section-title">Hurrengo Saioa</h1>
+
+            <div class="countdown-numbers">
+                <span class="days">00</span>
+                <span class="hours">00</span>
+                <span class="minutes">00</span>
+                <span class="seconds">00</span>
+            </div>
+        </section>
+
+        <div id="movies">
+            <h1 class="section-title">Pelikula Zerrenda</h1>
+
+            <section class="movie">
+                <div class="movie-card">
+                    <img src="" alt="Baner Irudia">
+    
+                    <div class="movie-info">
+                        <h2>Movie Title</h2>
+                        <p>Description</p>
+    
+                        <div class="movie-tags">
+                            <span class="tag">Comedy</span>
+                            <span class="tag">Action</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
+
     <footer>
-        <p>&copy; 2025 ZinemaUsurbil</p>
+        <span id="copyright">&copy; 2025 ZinemaUsurbil</span>
+
+        <div id="links">
+            <div class="main">
+                <ul>
+                    <li><a href="#">Kartelera</a></li>
+                    <li><a href="#">Saskia</a></li>
+                    <li><a href="#">Kontaktua</a></li>
+                </ul>
+            </div>
+
+            <div class="about">
+                <ul>
+                    <li><a href="#">Guri Buruz</a></li>
+                    <li><a href="#">Laguntza</a></li>
+                    <li><a href="#">Harremanetarako</a></li>
+                </ul>
+            </div>
+
+            <div class="legal">
+                <ul>
+                    <li><a href="#">Pribatutasun Politika</a></li>
+                    <li><a href="#">Cookie Politika</a></li>
+                    <li><a href="#">Erabilera Baldintzak</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
+
+    <script defer src="js/javascript.js"></script>
 </body>
 </html>
